@@ -1,6 +1,6 @@
 const express = require('express')
 
-const Greats = require('../greats/greatsModel.js')
+const Greats = require('../greats/greats-model.js')
 
 const server = express()
 

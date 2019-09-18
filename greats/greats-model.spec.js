@@ -1,5 +1,5 @@
 const db = require('../data/dbConfig')
-const Greats = require('./greatsModel')
+const Greats = require('./greats-model')
 
 beforeEach(async () => {
 	await db('greats').truncate()
